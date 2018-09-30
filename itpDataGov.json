@@ -7,48 +7,6 @@
     "ISP": "New York University"
   },
   {
-    "ipAddress": "192.168.184.228",
-    "Physical Location": "Private",
-    "lat": "Private",
-    "long": "Private",
-    "ISP": "Private"
-  },
-  {
-    "ipAddress": "128.122.254.114",
-    "Physical Location": "New York",
-    "lat": 40.7317,
-    "long": -73.9885,
-    "ISP": "New York University"
-  },
-  {
-    "ipAddress": "192.168.184.221",
-    "Physical Location": "Private",
-    "lat": "Private",
-    "long": "Private",
-    "ISP": "Private"
-  },
-  {
-    "ipAddress": "192.76.177.202",
-    "Physical Location": "New York",
-    "lat": 40.7317,
-    "long": -73.9885,
-    "ISP": "New York University"
-  },
-  {
-    "ipAddress": "128.122.254.109",
-    "Physical Location": "New York",
-    "lat": 40.7317,
-    "long": -73.9885,
-    "ISP": "New York University"
-  },
-  {
-    "ipAddress": "128.122.254.76",
-    "Physical Location": "New York",
-    "lat": 40.7317,
-    "long": -73.9885,
-    "ISP": "New York University"
-  },
-  {
     "ipAddress": "66.54.171.234",
     "Physical Location": "San Diego, California,",
     "lat": 32.7191,
@@ -85,13 +43,6 @@
   },
   {
     "ipAddress": "63.243.186.6",
-    "Physical Location": "United States",
-    "lat": 37.751,
-    "long": -97.822,
-    "ISP": "Tata Communications (america)"
-  },
-  {
-    "ipAddress": "66.198.70.34",
     "Physical Location": "United States",
     "lat": 37.751,
     "long": -97.822,

@@ -6,12 +6,12 @@ function getGoogleData(){
   var theHTML = '';
   $.getJSON("itpGoogle.json",function(json){
     for(var i = 0; i < json.length ; i++){
-      theHTML += "<div id='physicalLocation'>";
+      theHTML += "<div id='fromHome'>";
       theHTML += "<p>" + json[i].physicalLocation + "<p>";
       theHTML += "</div>";
     };
 
-       $('#physicalLocation').html(theHTML);
+       $('#fromHome').html(theHTML);
        let textInput = document.querySelector('#physicalLocation').textContent;
        console.log(textInput);
        // speak(textInput);
@@ -27,15 +27,15 @@ function getGovData(){
   var theHTML = '';
   $.getJSON("homeGov.json",function(json){
     for(var i = 0; i < json.length ; i++){
-      theHTML += "<div id='physicalLocation'>";
+      theHTML += "<div id='fromHome'>";
       theHTML += "<p>" + json[i].physicalLocation + "<p>";
-      theHTML += "<p>" + json[i].isp  + "<p>";
+      theHTML += "<p>" + json[i].ISP  + "<p>";
 
       theHTML += "</div>";
     // $("#physicalLocation").append(json[i].physicalLocation);
     console.log(json[i].physicalLocation);
     };
-       $('#physicalLocation').html(theHTML);
+       $('#fromHome').html(theHTML);
   });
 };
 

@@ -1,11 +1,49 @@
 html,
-body{
-height: 100%;
+body
+{
+   font-family: 'Roboto Mono', monospace;
+    background-image: url(assets/background.png);
+
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#mainDiv{
+  /* width: 100% */
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+#buttonsDiv{
+  height: 100px;
+  position: sticky;
+  padding: 50px 70px 50px 300px;
+
+}
+
+.siteButtons{
+  background-color: #435668;
+  margin: 10px 10px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.grid-container{
+  display: grid;
+  /* background: #000000; */
+  height: 630px;
+  width: 100%;
+  grid-template-columns: 50% 50%;
 }
 
 #physicalLocation{
-  display: block;
-  background: #000000;
-  height: 500px;;
-  width: 100%;
+
 }

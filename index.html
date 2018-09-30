@@ -1,14 +1,26 @@
 <html>
   <head>
+     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <!-- <script type="text/javascript" src="dataitp.json"></script> -->
     <title>Physical Traceroute</title>
   </head>
 
-  <body>
-    <button id="googleButton" type="button">google.com</button>
-    <button id="govButton" type="button">data.gov.in</button>
-    <div id="physicalLocation">
+  <body >
+    <div id = "mainDiv" >
+
+      <div id = "buttonsDiv">
+        <button class="siteButtons" id="googleButton" type="button">www.google.com</button>
+        <button class="siteButtons" id="govButton" type="button">www.data.gov.in</button>
+        <button class="siteButtons" id="dribbbleButton" type="button">www.dribbble.com</button>
+      </div>
+
+      <div  class="grid-container" id="physicalLocation">
+        <div class="grid-item" id ="fromHome"></div>
+        </div>
+        <div class="grid-item" id ="fromITP"></div>
+        </div>
     </div>
 
     <script src="jquery-2.1.1.js"></script>
