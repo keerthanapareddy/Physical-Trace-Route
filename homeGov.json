@@ -1,0 +1,100 @@
+[
+  {
+    "ip": "100.41.206.6",
+    "physicalLocation": "United States",
+    "lat": 37.751,
+    "long": -97.822,
+    "isp": "Verizon Internet Services"
+  },
+  {
+    "ip": "140.222.235.125",
+    "physicalLocation": "United States",
+    "lat": 37.751,
+    "long": -97.822,
+    "isp": "ANS CO+RE Systems"
+  },
+  {
+    "ip": "204.148.1.254",
+    "physicalLocation": "New York",
+    "lat": 40.7694,
+    "long": -73.9609,
+    "isp": "Verizon Business"
+  },
+  {
+    "ip": "204.148.1.254",
+    "physicalLocation": "New York",
+    "lat": 40.7694,
+    "long": -73.9609,
+    "isp": "Verizon Business"
+  },
+  {
+    "ip": "195.2.25.21",
+    "physicalLocation": "United Kingdom",
+    "lat": 51.4964,
+    "long": -0.1224,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "195.2.25.198",
+    "physicalLocation": "United Kingdom",
+    "lat": 51.4964,
+    "long": -0.1224,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "195.2.25.165",
+    "physicalLocation": "United Kingdom",
+    "lat": 51.4964,
+    "long": -0.1224,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "195.2.30.165",
+    "physicalLocation": "Europe",
+    "lat": 47,
+    "long": 8,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "195.2.28.182",
+    "physicalLocation": "Europe",
+    "lat": 47,
+    "long": 8,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "195.2.25.205",
+    "physicalLocation": "United Kingdom",
+    "lat": 51.4964,
+    "long": -0.1224,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "195.2.28.230",
+    "physicalLocation": "Europe",
+    "lat": 47,
+    "long": 8,
+    "isp": "Vodafone Limited"
+  },
+  {
+    "ip": "166.63.217.42",
+    "physicalLocation": "United States",
+    "lat": 37.751,
+    "long": -97.822,
+    "isp": "Vodafone Americas"
+  },
+  {
+    "ip": "182.19.110.54",
+    "physicalLocation": "India",
+    "lat": 20,
+    "long": 77,
+    "isp": "Vodafone Mobile Services"
+  },
+  {
+    "ip": "118.185.99.33",
+    "physicalLocation": "Delhi",
+    "lat": 28.6667,
+    "long": 77.2167,
+    "isp": "Vodafone Mobile Services"
+  }
+]

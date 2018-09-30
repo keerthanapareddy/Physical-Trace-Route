@@ -1,0 +1,11 @@
+html,
+body{
+height: 100%;
+}
+
+#physicalLocation{
+  display: block;
+  background: #000000;
+  height: 500px;;
+  width: 100%;
+}
