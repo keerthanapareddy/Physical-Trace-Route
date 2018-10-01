@@ -1,0 +1,58 @@
+[
+  {
+    "ipAddress": "100.41.206.6",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "Verizon Internet Services"
+  },
+  {
+    "ipAddress": "140.222.233.43",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "ANS CO+RE Systems"
+  },
+  {
+    "ipAddress": "152.179.208.90",
+    "physicalLocation": "Equinunk, Pennsylvania",
+    "lat": "",
+    "long": "",
+    "ISP": "ANS Communications, Verizon Business"
+  },
+  {
+    "ipAddress": "52.93.59.106",
+    "physicalLocation": "Seattle",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  },
+  {
+    "ipAddress": "54.239.108.148",
+    "physicalLocation": "Ashburn, Virginia",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  },
+  {
+    "ipAddress": "52.93.26.40",
+    "physicalLocation": "Seattle",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  },
+  {
+    "ipAddress": "54.239.109.13",
+    "physicalLocation": "Ashburn, Virginia",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  },
+  {
+    "ipAddress": "52.93.24.82",
+    "physicalLocation": "Seattle",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  }
+]

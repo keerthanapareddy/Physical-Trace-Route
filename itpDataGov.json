@@ -8,7 +8,7 @@
   },
   {
     "ipAddress": "66.54.171.234",
-    "physicalLocation": "San Diego, California,",
+    "physicalLocation": "San Diego,California",
     "lat": 32.7191,
     "long": -117.1607,
     "ISP": "GTT"
@@ -36,7 +36,7 @@
   },
   {
     "ipAddress": "199.229.231.226",
-    "physicalLocation": "San Jose, California,",
+    "physicalLocation": "San Jose, California",
     "lat": 37.2267,
     "long": -121.7864,
     "ISP": "Tinet"

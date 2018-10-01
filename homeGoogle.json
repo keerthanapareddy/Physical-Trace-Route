@@ -1,0 +1,23 @@
+[
+  {
+    "ipAddress": "100.41.206.8",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "Verizon Internet Services"
+  },
+  {
+    "ipAddress": "140.222.239.49",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "ANS CO+RE Systems"
+  },
+  {
+    "ipAddress": "209.85.149.208",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "Google"
+  }
+]
