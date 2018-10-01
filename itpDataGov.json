@@ -1,56 +1,56 @@
 [
   {
     "ipAddress": "128.122.1.4",
-    "Physical Location": "New York",
+    "physicalLocation": "New York",
     "lat": 40.7317,
     "long": -73.9885,
     "ISP": "New York University"
   },
   {
     "ipAddress": "66.54.171.234",
-    "Physical Location": "San Diego, California,",
+    "physicalLocation": "San Diego, California,",
     "lat": 32.7191,
     "long": -117.1607,
     "ISP": "GTT"
   },
   {
     "ipAddress": "213.200.113.254",
-    "Physical Location": "Germany, Europe",
+    "physicalLocation": "Germany, Europe",
     "lat": 51.2993,
     "long": 9.491,
     "ISP": "GTT Communications Inc."
   },
   {
     "ipAddress": "141.136.107.218",
-    "Physical Location": "France, Europe",
+    "physicalLocation": "France, Europe",
     "lat": 48.8582,
     "long": 2.3387,
     "ISP": "GTT Communications Inc."
   },
   {
     "ipAddress": "213.200.113.254",
-    "Physical Location": "Germany, Europe",
+    "physicalLocation": "Germany, Europe",
     "lat": 51.2993,
     "long": 9.491,
     "ISP": "GTT Communications Inc."
   },
   {
     "ipAddress": "199.229.231.226",
-    "Physical Location": "San Jose, California,",
+    "physicalLocation": "San Jose, California,",
     "lat": 37.2267,
     "long": -121.7864,
     "ISP": "Tinet"
   },
   {
     "ipAddress": "63.243.186.6",
-    "Physical Location": "United States",
+    "physicalLocation": "United States",
     "lat": 37.751,
     "long": -97.822,
     "ISP": "Tata Communications (america)"
   },
   {
     "ipAddress": "14.140.210.22",
-    "Physical Location": "Ankireddipalli, Telangana, India",
+    "physicalLocation": "Ankireddipalli, Telangana, India",
     "lat": 18.1675,
     "long": 79.0069,
     "ISP": "Tata Communications"

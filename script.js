@@ -1,43 +1,93 @@
 
 $("#googleButton").click(getGoogleData);
 $("#govButton").click(getGovData);
+$("#dribbbleButton").click(getDribbbleData);
 
-function getGoogleData(){
-  var theHTML = '';
-  $.getJSON("itpGoogle.json",function(json){
-    for(var i = 0; i < json.length ; i++){
-      theHTML += "<div id='fromHome'>";
-      theHTML += "<p>" + json[i].physicalLocation + "<p>";
-      theHTML += "</div>";
-    };
 
-       $('#fromHome').html(theHTML);
-       let textInput = document.querySelector('#physicalLocation').textContent;
-       console.log(textInput);
-       // speak(textInput);
-  });
 
-};
-
-function getGovData(){
-  //get data from both itp and home JSON
-  //display data side by side:
-    //create 2 column divs
-    //
-  var theHTML = '';
+function getGovData(){ //getting data from json and displaying
+  var govHomeLocHTML = '';
+  var govHomeIspHTML = '';
   $.getJSON("homeGov.json",function(json){
     for(var i = 0; i < json.length ; i++){
-      theHTML += "<div id='fromHome'>";
-      theHTML += "<p>" + json[i].physicalLocation + "<p>";
-      theHTML += "<p>" + json[i].ISP  + "<p>";
+      govHomeLocHTML += "<p>" + json[i].physicalLocation + "<p>";
+      govHomeIspHTML += "<p>" + json[i].ISP  + "<p>";
+      console.log(json[i].physicalLocation);
+    };
+       $('#locationHome').html(govHomeLocHTML);
+       $('#ispHome').html(govHomeIspHTML);
+  });
 
-      theHTML += "</div>";
-    // $("#physicalLocation").append(json[i].physicalLocation);
+  //from itp data
+  var govItpLocHtml = '';
+  var govItpIspHtml = '';
+  $.getJSON("itpDataGov.json",function(json){
+    for(var i = 0; i < json.length ; i++){
+      govItpLocHtml += "<p>" + json[i].physicalLocation + "<p>";
+      govItpIspHtml += "<p>" + json[i].ISP  + "<p>";
     console.log(json[i].physicalLocation);
     };
-       $('#fromHome').html(theHTML);
+       $('#locationItp').html(govItpLocHtml);
+       $('#ispItp').html(govItpIspHtml);
   });
 };
+
+function getGoogleData(){ //getting data from json and displaying
+//TO DO: get data from home
+  var googleHomeLocHTML = '';
+  var googleHomeIspHTML = '';
+  $.getJSON("homeGov.json",function(json){
+    for(var i = 0; i < json.length ; i++){
+      googleHomeLocHTML += "<p>" + json[i].physicalLocation + "<p>";
+      googleHomeIspHTML += "<p>" + json[i].ISP  + "<p>";
+      console.log(json[i].physicalLocation);
+    };
+       $('#locationHome').html(googleHomeLocHTML);
+       $('#ispHome').html(googleHomeIspHTML);
+  });
+
+  //from itp data
+  var googleItpLocHtml = '';
+  var googleItpIspHtml = '';
+  $.getJSON("itpGoogle.json",function(json){
+    for(var i = 0; i < json.length ; i++){
+      googleItpLocHtml += "<p>" + json[i].physicalLocation + "<p>";
+      googleItpIspHtml += "<p>" + json[i].ISP  + "<p>";
+    console.log(json[i].physicalLocation);
+    };
+       $('#locationItp').html(googleItpLocHtml);
+       $('#ispItp').html(googleItpIspHtml);
+  });
+};
+
+/*
+function getDribbbleData(){ //getting data from json and displaying
+  var dribbbleHomeLocHTML = '';
+  var googleHomeIspHTML = '';
+  $.getJSON("homeGov.json",function(json){
+    for(var i = 0; i < json.length ; i++){
+      govHomeLocHTML += "<p>" + json[i].physicalLocation + "<p>";
+      govHomeIspHTML += "<p>" + json[i].ISP  + "<p>";
+      console.log(json[i].physicalLocation);
+    };
+       $('#locationHome').html(googleHomeLocHTML);
+       $('#ispHome').html(googleHomeIspHTML);
+  });
+
+  //from itp data
+  var googleItpLocHtml = '';
+  var googleItpIspHtml = '';
+  $.getJSON("itpGoogle.json",function(json){
+    for(var i = 0; i < json.length ; i++){
+      govItpLocHtml += "<p>" + json[i].physicalLocation + "<p>";
+      govItpIspHtml += "<p>" + json[i].ISP  + "<p>";
+    console.log(json[i].physicalLocation);
+    };
+       $('#locationItp').html(googleItpLocHtml);
+       $('#ispItp').html(googleItpIspHtml);
+  });
+};
+*/
 
 //speech stuff
 const synth = window.speechSynthesis;

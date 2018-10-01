@@ -1,15 +1,6 @@
-
 [
   {
-    "ip address": "10.17.0.2",
-    "AS": "AS0",
-    "physicalLocation": "",
-    "lat": "",
-    "long": "",
-    "ISP": ""
-  },
-  {
-    "ip address": "128.122.1.36",
+    "ip": "128.122.1.36",
     "AS": "AS19905",
     "physicalLocation": "New York",
     "lat": 40.7317,
@@ -17,55 +8,7 @@
     "ISP": "New York University"
   },
   {
-    "ip address": "192.168.184.228",
-    "AS": "AS0",
-    "physicalLocation": "private",
-    "lat": "-",
-    "long": "-",
-    "ISP": "New York University"
-  },
-  {
-    "ip address": "128.122.254.114",
-    "AS": "AS19905",
-    "physicalLocation": "New York",
-    "lat": 40.7317,
-    "long": -73.9887,
-    "ISP": "New York University"
-  },
-  {
-    "ip address": "192.168.184.221",
-    "AS": "AS0",
-    "physicalLocation": "private",
-    "lat": "-",
-    "long": "-",
-    "ISP": "New York University"
-  },
-  {
-    "ip address": "192.76.177.202",
-    "AS": "AS19905",
-    "physicalLocation": "New York",
-    "lat": 40.7317,
-    "long": -73.9889,
-    "ISP": "New York University"
-  },
-  {
-    "ip address": "128.122.254.109",
-    "AS": "AS19905",
-    "physicalLocation": "New York",
-    "lat": 40.7317,
-    "long": -73.989,
-    "ISP": "New York University"
-  },
-  {
-    "ip address": "128.122.254.68",
-    "AS": "AS19905",
-    "physicalLocation": "New York",
-    "lat": 40.7317,
-    "long": -73.9891,
-    "ISP": "New York University"
-  },
-  {
-    "ip address": "64.86.62.1",
+    "ip": "64.86.62.1",
     "AS": "AS6453",
     "physicalLocation": "Chesterfield,Missouri",
     "lat": 38.65,
@@ -73,7 +16,7 @@
     "ISP": "Tata Communications (america)"
   },
   {
-    "ip address": "209.58.75.217",
+    "ip": "209.58.75.217",
     "AS": "AS32098",
     "physicalLocation": "Teterboro,New Jersey",
     "lat": 40.8546,
@@ -81,7 +24,7 @@
     "ISP": "Tata Communications (america)"
   },
   {
-    "ip address": "216.6.90.72",
+    "ip": "216.6.90.72",
     "AS": "AS6453",
     "physicalLocation": "United States",
     "lat": 37.751,
@@ -89,75 +32,11 @@
     "ISP": "Tata Communications (america)"
   },
   {
-    "ip address": "63.243.128.141",
-    "AS": "AS6453",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.823,
-    "ISP": "Tata Communications (america)"
-  },
-  {
-    "ip address": "63.243.128.25",
-    "AS": "AS6453",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.824,
-    "ISP": "Tata Communications (america)"
-  },
-  {
-    "ip address": "63.243.128.122",
-    "AS": "AS6453",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.825,
-    "ISP": "Tata Communications (america)"
-  },
-  {
-    "ip address": "72.14.195.232",
+    "ip": "72.14.195.232",
     "AS": "AS15169",
     "physicalLocation": "United States",
     "lat": 37.751,
     "long": -97.826,
-    "ISP": "Google"
-  },
-  {
-    "ip address": "108.170.248.1",
-    "AS": "AS15169",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.827,
-    "ISP": "Google"
-  },
-  {
-    "ip address": "108.170.248.65",
-    "AS": "AS15169",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.828,
-    "ISP": "Google"
-  },
-  {
-    "ip address": "108.170.248.1",
-    "AS": "AS15169",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.829,
-    "ISP": "Google"
-  },
-  {
-    "ip address": "72.14.234.23",
-    "AS": "AS15169",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.83,
-    "ISP": "Google"
-  },
-  {
-    "ip address": "172.217.11.14",
-    "AS": "AS15169",
-    "physicalLocation": "United States",
-    "lat": 37.751,
-    "long": -97.831,
     "ISP": "Google"
   }
 ]
