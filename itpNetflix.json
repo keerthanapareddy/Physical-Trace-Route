@@ -1,0 +1,44 @@
+[
+  {
+    "ip": "128.122.1.4",
+    "physicalLocation": "New York",
+    "lat": "",
+    "long": "",
+    "ISP": "New York University"
+  },
+  {
+    "ip": "199.109.5.5",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "NYSERNet"
+  },
+  {
+    "ip": "162.252.70.138",
+    "physicalLocation": "United States",
+    "lat": "",
+    "long": "",
+    "ISP": "Internet2"
+  },
+  {
+    "ip": "54.239.108.176",
+    "physicalLocation": "Ashburn, Virginia",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  },
+  {
+    "ip": "52.93.24.70",
+    "physicalLocation": "Seattle, Washington",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  },
+  {
+    "ip": "72.21.220.13",
+    "physicalLocation": "Ashburn, Virginia",
+    "lat": "",
+    "long": "",
+    "ISP": "Amazon.com"
+  }
+]

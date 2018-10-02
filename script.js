@@ -65,24 +65,24 @@ function getNetflixData(){ //getting data from json and displaying
        $('#ispHome').html(netflixHomeIspHTML);
   });
 
-/*  //from itp data
+  //from itp data
   var netflixItpLocHtml = '';
   var netflixItpIspHtml = '';
   $.getJSON("itpNetflix.json",function(json){
     for(var i = 0; i < json.length ; i++){
-      googleItpLocHtml += "<p>" + json[i].physicalLocation + "<p>";
-      googleItpIspHtml += "<p>" + json[i].ISP  + "<p>";
+      netflixItpLocHtml += "<p>" + json[i].physicalLocation + "<p>";
+      netflixItpIspHtml += "<p>" + json[i].ISP  + "<p>";
     // console.log(json[i].physicalLocation);
     };
        $('#locationItp').html(netflixItpLocHtml);
        $('#ispItp').html(netflixItpIspHtml);
   });
-    */
+
   //speak stuff
          var homeText = $('#ispItp p').text();
          var itpText = $('#ispHome p').text();
          // console.log(text);
-         speak(homeText);
+         speak(homeText); //combine both the texts as one and make it speak
          speak(itpText);
 
 };
